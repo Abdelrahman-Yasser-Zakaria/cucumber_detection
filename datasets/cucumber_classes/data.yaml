@@ -1,0 +1,12 @@
+train: /home/abdelrahman/Linux_Code/Python/real_time_models/cucumber_yolov11/datasets/cucumber_classes/train/images
+val: /home/abdelrahman/Linux_Code/Python/real_time_models/cucumber_yolov11/datasets/cucumber_classes/valid/images
+test: /home/abdelrahman/Linux_Code/Python/real_time_models/cucumber_yolov11/datasets/cucumber_classes/test/images
+nc: 5
+names: ['cucumber_healthy','cucumber_bacterial','cucumber_anthracnose','cucumber_downy','cucumber_gummy']
+
+roboflow:
+  workspace: abdelrahmanyasser
+  project: cucumber-disease-detection-uh0un
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/abdelrahmanyasser/cucumber-disease-detection-uh0un/dataset/4
